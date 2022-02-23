@@ -1,64 +1,79 @@
-<!-- Tag to tell the browser that we're using html 5 -->
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- Title of the website -->
-        <title>Flower Website</title>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <img src="./images/logo.png"/>
 
-        <!-- For Mobile Devices -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <body>
-        <nav>
-            <a href="/">Home</a>
-            <a href="/flower-uses.html">Uses of Flowers</a>
-            <a href="/common-flowers.html">Common Flowers</a>
-        </nav>
+        <section class="hero">
+            <div>
+                <h1>Secure IT Solutions
+                for a more secure
+                environment</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Quis ipsum suspendisse ultrices gravida</p>
+                <button class="btn">Get Started</button>
+        </div>
+        <div>
+            <img src="./images/svg.jpg" />
+        </div>
+        </section>
 
-        <h1>Flower</h1>
+        <section class="features">
+            <div>
+                <h2>Code Security</h2>
+                <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+            </div>
+            <div>
+                <h2>Team Management</h2>
+                <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+            </div>
+            <div>
+                <h2>Access Control</h2>
+                <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+            </div>
+            <div>
+                <h2>Zero Configuration</h2>
+                <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+            </div>
+        </section>
 
-        <img src="./flower.jpg" alt="FLower" />
+        <section class="services">
+            <h2>Design & Development</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.</p>
 
-        <p>A flower is the reproductive part of flowering plants. Flowers are also called the bloom or blossom of a plant. Flowers
-        have petals. Inside the part of the flower that has petals are the parts which produce pollen and seeds.</p>
-    
-        <h2>Structure of flowers</h2>
-        <img src="./flower-details.png" alt="FLower Details" width="100%" />
-    
-        <p>
-            To investigate the structure of a flower, it must be dissected, and its structure summarised by a floral diagram or a
-            floral formula. Then its family can be identified with the aid of a flora, which is a book designed to help you identify
-            plants.
-        </p>
+            <div>
+                <div>Responsive Design</div>
+                <div>React Web Development</div>
+                <div>Android App Development</div>
+                <div>Laravel Web Development</div>
+                <div>IOS App Development</div>
+                <div>UX/UI Design</div>
+            </div>
+        </section>
 
-        <h3>Four basic parts</h3>
-        <p>Flowers have four basic parts, from the outside in they are:</p>
-        
-        <ol>
-            <li>
-                The perianth, the vegetative parts
-                <ol>
-                    <li>
-                        The calyx: the outermost whorl consisting of units called sepals. These are often green and enclose the rest of the
-                        flower in the bud. They may be absent, or they may be petal-like in some species
-                    </li>
-                    <li>
-                        The corolla: the petals, usually thin, soft and often colored to attract animals that help pollination
-                    </li>
-                </ol>
-            </li>
-            <li>
-                The reproductive parts
-                <ol>
-                    <li>
-                        The androecium, the male part, is the stamens
-                    </li>
-                    <li>
-                        The gynoecium, the female parts
-                    </li>
-                </ol>
-            </li>
-        </ol>
-    </body>
+        <section class="contact">
+            <div>
+                <h2>Have any question about us?</h2>
+                <p>Don't hesitate to contact us</p>
+            </div>
+            <button class="btn">Contact Us</button>
+        </section>
+    </div>
+</body>
 </html>

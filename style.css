@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+nav > ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.hero > div:first-child {
+  max-width: 500px;
+  margin-right: 100px;
+}
+.btn {
+  border: none;
+  background-color: #32cd32;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+.hero p {
+  margin: 10px 0;
+}
+.hero img {
+  display: block;
+  width: 100%;
+}
+
+.features {
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 30px;
+}
+.features > div {
+  padding: 20px;
+  box-shadow: 0 0 4px rgb(0 0 0 / 20%);
+}
+.features > div > h2 {
+  margin-bottom: 10px;
+}
+
+.services {
+  margin-top: 150px;
+}
+.services > p {
+  margin: 20px 0;
+}
+.services > div {
+  max-width: 550px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+.services > div > div {
+  padding: 10px;
+  box-shadow: 0 0 4px rgb(0 0 0 / 20%);
+}
+
+.contact {
+  margin: 100px auto 0 auto;
+  display: flex;
+  align-items: center;
+  max-width: 550px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+  padding: 20px 30px;
+  margin-bottom: 50px;
+}
+.contact > div {
+  margin-right: 20px;
+}
+.contact > div > h2 {
+  margin-bottom: 10px;
+}
+
+.about-hero {
+}
+.about-hero > div {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+.about-hero > div > div:last-child {
+  max-width: 600px;
+  margin-left: 100px;
+}
+.about-hero img {
+  display: block;
+  width: 100%;
+}
+.about-hero > div h2 {
+  margin-bottom: 20px;
+}
+.about-hero form {
+  display: flex;
+  flex-direction: column;
+}
+.about-hero input,
+.about-hero textarea {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.contact-hero > div > div:last-child {
+  max-width: 100%;
+  width: 600px;
+  margin-left: 100px;
+}
